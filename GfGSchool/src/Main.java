@@ -30,10 +30,15 @@ public class Main {
 			
 		}*/
 		
-		for(int i = 0 ; i<tests; i++){
-			String input = sc.nextLine();
-			GoogleExam g = new GoogleExam();
-			System.out.println(g.findMaxDigit(input));
+//		for(int i = 0 ; i<tests; i++){
+//			String input = sc.nextLine();
+//			GoogleExam g = new GoogleExam();
+//			System.out.println(g.findMaxDigit(input));
+//		}
+		
+		for(int i = 0 ; i< tests; i++){
+			int input = Integer.parseInt(sc.nextLine());
+			
 		}
 		
 		sc.close();
