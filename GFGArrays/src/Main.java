@@ -48,10 +48,56 @@ public class Main {
 		}
 		*/
 		//6) Program for array rotation
-		int[] a = {1,2,3,4,5,6};
-		RotateArray r = new RotateArray();
-		r.rotateArray4(a, 3);
+//		int[] a = {1,2,3,4,5,6};
+//		RotateArray r = new RotateArray();
+//		r.rotateArray4(a, 3);
 		
+		//7) Block swap algorithm
+		
+//		int[] a= {1,2,3,4,5,6,7};
+//		BlockSwap b = new BlockSwap();
+//		b.blockSwap(a, 2);
+		
+		//8 Maximum sum such that no two elements are adjacent
+		
+		//int[] a = {4,1,1,4,2,1};
+//		int[] a = {7,3,5,10}; 
+//		MaxSumSTNoAdjacent m = new MaxSumSTNoAdjacent();
+//		m.findMaxSumNoAdjacent(a);
+		
+		//int[] a = {16, 17, 4, 3, 5, 2};
+		
+//		Check for Majority Element in a sorted array
+//		Question: Write a function to find if a given integer x appears more than n/2 times in a sorted array of n integers.
+		
+//		int[] a= {2,3,3,3,4,5,6};
+//		MajorityEleInSortedArray m = new MajorityEleInSortedArray();
+//		int mid = (0 + a.length-1)/2;
+//		int res = m.findMajorityElementInSortedArray2(a,0,a.length-1,a[mid]);
+//		if(res != -1 && a[res + mid] == a[res])
+//			System.out.println(a[res]);
+//		else
+//			System.out.println(-1);
+//		
+//		Segregate 0s and 1s in an array
+//		You are given an array of 0s and 1s in random order. Segregate 0s on left side and 1s on right side of the array. Traverse array only once.
+		
+//		int[] a = {0, 1, 0, 1, 0, 0, 1, 1, 1, 0};
+//		Segregate0and1 s = new Segregate0and1();
+//		s.doSegregate2(a);
+		
+		
+//		int[] a = {2, 3, 10, 6, 4, 8, 1};
+//		MaxDiffSTLargerafterSmaller m = new MaxDiffSTLargerafterSmaller();
+//		m.findMaxDiffSTLargerAfterSmaller2(a);
+		
+		//Union and Intersection of two sorted arrays
+		//Given two sorted arrays, find their union and intersection.
+		
+		int[] a = {1, 3, 4, 5, 7,7,7};
+		int[] b = {2, 3, 5, 6};
+		UnionandIntersection u = new UnionandIntersection();
+		u.findUnionandIntersection(a, b);
 	}
 
 }

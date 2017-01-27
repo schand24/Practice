@@ -7,8 +7,7 @@ public class ReverseArray {
 		for(int i=0;i<len/2;i++){
 			int temp = a[i];
 			a[i] = a[j];
-			a[j] = temp;
-			j--;
+			a[j--] = temp;
 		}
 		return a;
 	}
